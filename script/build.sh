@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-name=noteplay
+name=funplay
 echo $name
 
 if [ "$1" = "build" ]; then
