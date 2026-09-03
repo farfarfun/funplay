@@ -1,4 +1,4 @@
-from notedrive.base import PyCurlDownLoad
+from fundrive.base import PyCurlDownLoad
 
 dowmer = PyCurlDownLoad()
 
