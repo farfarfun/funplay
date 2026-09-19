@@ -1,6 +1,7 @@
-from fundrive.base import PyCurlDownLoad
-
-dowmer = PyCurlDownLoad()
+# NOTE: fundrive has no PyCurlDownLoad equivalent (fundrive.core.base only has
+# DriveFile/BaseDrive). The download calls below were already commented out
+# pre-migration, so the generic downloader import is dropped rather than faked.
+# See farfarfun/todo-list#369.
 
 
 class Task:
