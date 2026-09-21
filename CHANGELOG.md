@@ -1,8 +1,19 @@
-# Changelog
+# 更新日志
 
 ## [Unreleased]
 
-### Changed
+### 新增
 
-- **Breaking:** Renamed the import package and PyPI distribution name from `noteplay` to `funplay` to match the repository name. Anyone doing `import noteplay` or `pip install noteplay` must switch to `import funplay` / `pip install funplay`.
-- The old `noteplay` PyPI package will receive one final release that forwards to `funplay` (manual follow-up by the repo owner, not part of this change).
+- 增加 `Task` 的可导入接口和数据集地址示例。
+
+### 修复
+
+- 移除已失效的 `fundrive` 下载依赖，使存档模块可以在干净环境导入。
+
+### 变更
+
+- **破坏性变更：** 导入包和 PyPI 分发名称从 `noteplay` 改为 `funplay`。本仓库没有发布过 `noteplay` 或 `funplay`，因此无需发布旧包转发版本；使用者应直接阅读本仓库存档。
+
+### 废弃
+
+- 废弃比赛下载流程和旧的 setup.py/twine 发布脚本；本项目仅作为源码存档。
