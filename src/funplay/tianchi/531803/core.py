@@ -3,6 +3,7 @@
 # pre-migration, so the generic downloader import is dropped rather than faked.
 # See farfarfun/todo-list#369.
 
+
 class Task:
     """天池 531803 比赛数据集任务的存档接口。"""
 

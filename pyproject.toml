@@ -1,7 +1,7 @@
 [project]
 name = "funplay"
 version = "0.4.7"
-description = "funplay"
+description = "阿里云天池 531803 比赛代码存档，提供历史数据集地址读取接口，不执行自动下载"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
@@ -14,10 +14,17 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["funplay"]
+packages = ["src/funplay"]
 
 [dependency-groups]
-dev = ["pytest>=8"]
+dev = ["pytest>=8", "ruff>=0.8"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

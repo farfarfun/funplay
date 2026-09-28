@@ -24,6 +24,8 @@ print(train_url, test_url)
 pip install .
 ```
 
+---
+
 ## 关于 farfarfun
 
 [farfarfun](https://github.com/farfarfun) 是一个专注于实用工具库的开源组织，
