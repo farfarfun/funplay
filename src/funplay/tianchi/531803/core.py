@@ -1,7 +1,7 @@
-# NOTE: fundrive has no PyCurlDownLoad equivalent (fundrive.core.base only has
-# DriveFile/BaseDrive). The download calls below were already commented out
-# pre-migration, so the generic downloader import is dropped rather than faked.
-# See farfarfun/todo-list#369.
+# 说明：fundrive 没有 PyCurlDownLoad 的等价实现（fundrive.core.base 只有
+# DriveFile/BaseDrive 这类网盘驱动抽象，不是通用 URL 下载器）。下方的下载调用
+# 在迁移前就已被注释掉，因此这里直接去掉通用下载器导入，而不是伪造一个假迁移。
+# 背景见 farfarfun/todo-list#369。
 
 
 class Task:

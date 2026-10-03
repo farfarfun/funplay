@@ -9,6 +9,9 @@
 ### 修复
 
 - 移除已失效的 `fundrive` 下载依赖，使存档模块可以在干净环境导入。
+- README 安装示例改为 uv（`uv sync`/`uv run`/`uv pip install .`），不再以 `pip install .` 作为唯一路径。
+- README 中的源码路径更正为 `src/funplay/tianchi/531803/core.py`，并说明项目采用 `src/` 布局。
+- `core.py` 顶部的英文说明注释改写为中文。
 
 ### 变更
 
